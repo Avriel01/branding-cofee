@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 70px;
+  height: 80px;
+}
+
+.main-logo {
+  width: 123px;
+  height: 40px;
+}
+
+.parent-list-nav {
+  list-style: none;
+  display: flex;
+}
+
+.list-nav {
+  margin: 0 20px;
+}
+
+.btn {
+  width: 100px;
+  background: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: .5;
+}
+
+.btn--login {
+  margin-right: 10px;
+  color: brown;
+}
+
+.btn--register {
+  background-color: brown;
+  color: white;
+}
